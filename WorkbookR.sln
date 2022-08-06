@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB8FCD5D-468
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkbookR", "src\workbookr\WorkbookR.csproj", "{2624827E-1E59-4B49-8E74-F6FD76CC75AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkbookR.ConsoleRunner", "src\WorkbookR.ConsoleRunner\WorkbookR.ConsoleRunner.csproj", "{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{2624827E-1E59-4B49-8E74-F6FD76CC75AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2624827E-1E59-4B49-8E74-F6FD76CC75AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2624827E-1E59-4B49-8E74-F6FD76CC75AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2624827E-1E59-4B49-8E74-F6FD76CC75AB} = {DB8FCD5D-4681-46EC-94BF-53490E4DE093}
+		{D8CB8C92-9563-462A-BB8D-F9E1C1B0FDC3} = {DB8FCD5D-4681-46EC-94BF-53490E4DE093}
 	EndGlobalSection
 EndGlobal
