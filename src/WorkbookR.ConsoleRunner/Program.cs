@@ -2,7 +2,12 @@
 
 using WorkbookR;
 
-var book = WorkbookBuilder.ForModel<TestModel>().Build();
+var models = new TestModel[]
+{
+    new() { FooString = "test1", BarInt = 1 },
+    new() { FooString = "test2", BarInt = 2 }
+};
+var book = WorkbookBuilder.For(models).Build();
 book.SaveAs("../../../HelloWorld.xlsx");
 book.Dispose();
 
